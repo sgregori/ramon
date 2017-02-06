@@ -1,0 +1,33 @@
+<?php
+
+// Configure the telegram api values:
+
+define('BOT_TOKEN', 'XXXXXXXX:AANLdaq66saO5RAXStcBS8UzC6ppPx1xT50');
+define('CHAT_ID', '-211218966');
+define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+
+// Configure the database:
+
+$dbname="bot_monitoring";
+$dbuser="bot_monitoring";
+$dbpass="bot_monitoring";
+$dbhost="localhost";
+
+// Configure notifications:
+
+$bot_goodmoring = "Buenos dias";
+$bot_goodmoring_time = "08:00";
+
+$bot_goodnight = "Buenas noches";
+$bot_goodnight_time = "20:00";
+
+// Configure the daemon:
+
+ini_set('max_execution_time', 500);
+date_default_timezone_set('Europe/Madrid');
+define('TIMEZONE', 'Europe/Madrid');
+
+error_reporting(E_ERROR);
+$DEBUG = 0;
+
+?>
