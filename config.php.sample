@@ -3,14 +3,14 @@
 // Configure the telegram api values:
 
 define('BOT_TOKEN', 'XXXXXXXX:AANLdaq66saO5RAXStcBS8UzC6ppPx1xT50');
-define('CHAT_ID', '-211218966');
+define('CHAT_ID', '-222222222');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 // Configure the database:
 
-$dbname="bot_monitoring";
-$dbuser="bot_monitoring";
-$dbpass="bot_monitoring";
+$dbname="ramon";
+$dbuser="ramon";
+$dbpass="ramon";
 $dbhost="localhost";
 
 // Configure notifications:
