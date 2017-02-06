@@ -20,7 +20,7 @@ $bot_goodmoring_time = "08:00";
 
 $bot_goodnight = "Buenas noches";
 $bot_goodnight_time = "20:00";
-
+ 
 // Configure the daemon:
 
 ini_set('max_execution_time', 500);
